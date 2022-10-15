@@ -91,11 +91,8 @@ export default function Register({ notFound, registrationRecord, params }) {
       </Card>
       <Card px={[4, 4]} py={[4, 4]} mt={4}>
         <Heading as="h1" sx={{ fontSize: '24px' }}>
-          Interest Form
+          Registration Form
           <br></br>
-          <Text sx={{ fontSize: '16px' }}>
-            This form is for interest and is completely non-binding.
-          </Text>
         </Heading>
         {manifest.questions.map((sectionItem, sectionIndex) => {
           if (typeof sectionItem.check != 'undefined') {
